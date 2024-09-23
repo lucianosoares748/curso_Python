@@ -14,7 +14,7 @@ print('Luciano Soares')
 print("Luciano Soares")
 
 # Escape
-print("Luciano \"Santos\" soares") 
+print("Luciano \"Santos\" soares................") 
 """
 quando eu quiser escrever algo entre aspas duplas/simples que ja estejam envolvidos em aspas, eu posso
 colocar uma barra invertida antes, para que o interpretator não confunda e de erro no código

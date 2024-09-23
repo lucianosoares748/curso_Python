@@ -7,7 +7,7 @@
 
 nome_completo = ('Luciano dos Santos soares')
 soma_idade = 1997 - 2024
-print(nome_completo, soma_idade)
+print(f'{nome_completo}, {soma_idade}')#alterei para formate string
 
 #atividade
 nome = ('luciano')
