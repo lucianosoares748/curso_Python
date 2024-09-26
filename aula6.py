@@ -3,6 +3,7 @@
 # é o ato de converter um tipo em outro
 #  tipos imutáveis e primitivos:
 # str, int, float, bool
+
 print(type('1'), type(int('1'))) #convercao para inteiro
 print(type(float('1') + 1)) #convercao para float
 print(bool(' ')) #string sem espaco tem valor false, e com espaco true
