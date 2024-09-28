@@ -2,10 +2,12 @@
 #f strings serve para formatar strings
 #EX ===>
 
-nome = 'Luciano Soares'
-peso = 87
-altura = 1.67
-imc = peso / 1.67**2
+nome = input('Digite seu nome: ')
+peso = input('Digite seu peso: ')
+peso_float = float(peso)
+altura = input('Digite sua altura: ')
+altura_float = float(altura)
+imc = peso_float / altura_float**2
 
 linha1 = f'{nome} tem {altura} de altura'
 linha2 = f'pesa {peso}, quilos e seu IMC seria de'

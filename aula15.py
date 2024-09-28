@@ -2,10 +2,15 @@
 nome = input('Qual seu nome:')
 print(f'Hellow, world {nome}')
 
-numero_1 = input('Digite um numero: ')
-numero_2 = input('Digite um numero: ')
+numero_1 = input('Digite um numero: ')#Ele retornara string
+numero_2 = input('Digite um numero: ')#Ele retornara string
 
 print(f'{numero_1 + numero_2}') 
+
+numero_1_float = float(numero_1)#depois de converter os dados entrados pelo input ele fara a soma
+numero_2_float = float(numero_2)#depois de converter os dados entrados pelo input ele fara a soma
+
+print(f'{numero_1_float + numero_2_float}') 
 
 #return a concatenacao e nao faz a soma
 #isso pq toda vez que se usa input dentro de uma variavel ele vai sempre retornar uma STR
