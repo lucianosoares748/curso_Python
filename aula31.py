@@ -4,7 +4,7 @@ None = Não valor
 is e is not = é ou não é (tipo, valor, identidade)
 id = Identidade
 """
-condicao = False
+condicao = True
 passou_no_if = None
 if condicao:
     passou_no_if = True
@@ -15,3 +15,9 @@ if passou_no_if is None:
     print('Não passou no if')
 else:
     print('Passou no if')
+
+
+# -----------------ANOTACOES
+#criar uma variável dentro de um bloco de código para usar fora
+#deste mesmo bloco de código é uma prática ruim.
+#Se cria a variavél fora do bloco, depois se utiliza. 
