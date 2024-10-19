@@ -5,20 +5,20 @@ inteiro, informe que não é um número inteiro.
 """
 
 
-# entrada = input('Digite um número: ')
+entrada = input('Digite um número: ')
 
-# if entrada.isdigit():
-#     entrada_int = int(entrada) #convertendo para inteiro
-#     par_impar = entrada_int % 2 == 0 #Faz a checagem
-#     par_impar_texto = 'ímpar'
+if entrada.isdigit():
+    entrada_int = int(entrada) #convertendo para inteiro
+    par_impar = entrada_int % 2 == 0 #Faz a checagem
+    par_impar_texto = 'ímpar'
 
-#     if par_impar:
-#         par_impar_texto = 'par'
+    if par_impar:
+        par_impar_texto = 'par'
         
 
-#     print(f'O número {entrada_int}, é {par_impar_texto}!')
-# else:
-#     print('Você não digitou um número inteiro.')
+    print(f'O número {entrada_int}, é {par_impar_texto}!')
+else:
+    print('Você não digitou um número inteiro.')
 
 
 
@@ -32,19 +32,19 @@ Bom dia 0-11, Boa tarde 12-17 e Boa noite 18-23.
 
 
 
-# try:
-#     hora = int(horario)
+try:
+    hora = int(horario)
 
-#     if hora >= 0 and hora <= 11:
-#         print('Boa dia!')
-#     elif hora >= 12 and hora <= 17:
-#         print('Boa tarde!')
-#     elif hora >= 18 and hora <= 23:
-#         print('Bom noite!')
-#     else:
-#         print('Não conheço essa hora')
-# except:
-#     print('Por favor, digite apenas núme ros inteiros')
+    if hora >= 0 and hora <= 11:
+        print('Boa dia!')
+    elif hora >= 12 and hora <= 17:
+        print('Boa tarde!')
+    elif hora >= 18 and hora <= 23:
+        print('Bom noite!')
+    else:
+        print('Não conheço essa hora')
+except:
+    print('Por favor, digite apenas núme ros inteiros')
 
 
 
