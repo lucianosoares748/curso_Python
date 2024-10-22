@@ -11,7 +11,7 @@ while condicao:
     nome = input('Digite um nome: ')
     print(f'Seu nome é {nome}')
 
-    if nome == 'sair':
+    if nome == 'sair': #condição para interromper o loop infinito
         print('Acabou')
         break
 
