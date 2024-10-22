@@ -10,5 +10,5 @@ print(string.capitalize())
 
 '''
 Dentro de objetos podemos executar algumas ações que estão na 
-documentação do python, como a função capitalize(). 
+documentação do python, como o método capitalize(). 
 '''
