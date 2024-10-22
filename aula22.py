@@ -25,7 +25,7 @@ print(False or 0 or '' or True)
 
 '''
 Se qualquer valor for considerado verdadeiro,
-a expressão inteira será avaliada naquele valor.
+a expressão inteira será avaliada naquele valor VERDADEIRO.
 mesmo que eu jogue o valor true para o final, ele ira pular todos os falsos
 e parar apenas la no verdadeiro como foi exemplificado na linha 24
 '''

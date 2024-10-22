@@ -3,7 +3,7 @@
 # and - Todas as condições precisam ser
 # verdadeiras.
 # Se qualquer valor for considerado falso,
-# a expressão inteira será avaliada naquele valor
+# a expressão inteira será avaliada naquele valor falso
 # São considerados falsy (que vc já viu)
 # 0 0.0 '' False
 # Também existe o tipo None que é
@@ -20,6 +20,6 @@ else:
     print('Saiu')
 
 #Avaliacao de curto circuito
-print(True and False and True)
+print(True and False and True)#se em and um dos valores for falso, todo resto também será falso
 print(True and .0 and True)
 #Obrigatoriamente ele para no valor de False e nao continua lendo o resto
