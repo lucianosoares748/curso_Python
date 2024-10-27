@@ -18,14 +18,14 @@ Conversion flags - !r !s !a
 variavel = 'ABC'
 
 print(f'{variavel}')
-print(f'{variavel: >10}')#Adiciona espaco a esqueda deixando espaco vazio
-print(f'.{variavel: <10}.')#Adiciona espaco a direita deixando espaco vazio
-print(f'{variavel: ^10}.')#Coloca ao centro deixando espaco vazio
+print(f'{variavel: >10}')#Adiciona espaço a esquerda deixando espaço vazio
+print(f'.{variavel: <10}.')#Adiciona espaço a direita deixando espaço vazio
+print(f'{variavel: ^10}.')#Coloca ao centro deixando espaço vazio
 
 exemplo = 1234
 
-print(f'{exemplo:->10}')#Adiciona espaco a esqueda preenchendo com 0
-print(f'{exemplo:@<10}')#Adiciona espaco a direita preenchendo com @
+print(f'{exemplo:->10}')#Adiciona espaço a esquerda preenchendo com 0
+print(f'{exemplo:@<10}')#Adiciona espaço a direita preenchendo com @
 print(f'{exemplo:$^10}')#Coloca ao centro preenchendo com $
 
 print(f'O hexadecimal de 1500 é {1500:08X}')#Hexadecimal com f string

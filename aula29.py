@@ -13,13 +13,14 @@ try: # try -> tenta executar esse codigo abaixo:
 except: # except -> Mas se no try ocorrer um erro "excessao" pula pro codigo abaixo:
     print('Isso não é um número')
 
+# Se tivessemos que criar um algoritimo que fizesse o mesmo que está a cima, porém 
+# utilizando IF e ELSE ficaria assim:
+if numero_str.isdigit():
 
-# if numero_str.isdigit():
-
-#     numero_float = float(numero_str)
-#     print(f'O dobro de {numero_str} é {numero_float * 2:.2f}')
-# else:
-#     print('Isso nao e um numero')
+    numero_float = float(numero_str)
+    print(f'O dobro de {numero_str} é {numero_float * 2:.2f}')
+else:
+    print('Isso nao e um numero')
 
 
 

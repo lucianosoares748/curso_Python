@@ -19,6 +19,6 @@ print(len(varialvel))#CONTA a quantidade de caracteres comecando do 1 ... e n do
 #FATIAMENTO 
 print(varialvel[0:8:2])
 #               I:F:P 
-# Aqui eu estou definido onde quero que comece o inicio, e o final F, e por ultimo
+# Aqui eu estou definindo onde quero que comece o inicio I, e o final F, e por ultimo
 # de quando em quando sera o passo P, neste caso de 2 em 2 que ele ira mostrar
 # e tambem pode ser feito com indice de forma negativo
