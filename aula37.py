@@ -9,7 +9,8 @@ Loop infinito -> Quando um código não tem fim
 contador = 0
 
 while contador <= 100:
-    contador += 1
+    contador += 1 #Isso é o que mantem o laço de continuação
+    #devemos ficar atendo a base para não criar um loop infinito
 
 
     if contador == 27:
@@ -26,4 +27,4 @@ while contador <= 100:
     if contador == 50:  
         break
 
-# O continue vai ser aplicado sempre para o WHILE mais próximo.
+# O continue vai ser aplicado sempre para o WHILE mais próximo. 
